@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF2E9"
+    tools:context=".Tampilan_home.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="end">
+
+        <!-- First Row of Images -->
+
+
+        <!-- Second Row of Images -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageBell"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/bell" />
+
+            <TextView
+                android:id="@+id/imageTextSmall"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:fontFamily="@font/sriracha_regular"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Cookpiration"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:id="@+id/imageSearch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:src="@drawable/icon_search" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/imageTex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Mau masak apa hari ini?"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Third Row of Images -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="30dp"
+            android:layout_gravity="end">
+
+            <TextView
+                android:id="@+id/smal3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Lihat semua"
+                android:textColor="#6C6A67"
+                android:textSize="12sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-30dp">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:text="Semua"
+                        android:textSize="14dp"
+                        android:textColor="@color/white"
+                        android:background="@drawable/roudn_button" />
+
+                    <Button
+                        android:id="@+id/mnmalam"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/bottoncreem"
+                        android:fontFamily="@font/roboto"
+                        android:text="Makan malam"
+                        android:textColor="#866F60"
+                        android:textSize="14dp" />
+                    <Button
+                        android:id="@+id/mnsiang"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14dp"
+                        android:background="@drawable/bottoncreem"
+                        android:fontFamily="@font/roboto"
+                        android:text="Makan siang"
+                        android:textColor="#866F60" />
+                    <Button
+                        android:id="@+id/mndiet"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14dp"
+                        android:background="@drawable/bottoncreem"
+                        android:fontFamily="@font/roboto"
+                        android:text="Diet"
+                        android:textColor="#866F60" />
+                    <Button
+                        android:id="@+id/mnindonesia"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14dp"
+                        android:background="@drawable/bottoncreem"
+                        android:fontFamily="@font/roboto"
+                        android:text="Indonesia"
+                        android:textColor="#866F60" />
+                    <Button
+                        android:id="@+id/mnjepang"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14dp"
+                        android:background="@drawable/bottoncreem"
+                        android:fontFamily="@font/roboto"
+                        android:text="Jepang"
+                        android:textColor="#866F60" />
+                    <Button
+                        android:id="@+id/mnkorea"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="14dp"
+                        android:background="@drawable/bottoncreem"
+                        android:fontFamily="@font/roboto"
+                        android:text="Korea"
+                        android:textColor="#866F60" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            android:layout_margin="30dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="-30dp">
+
+            <TextView
+                android:id="@+id/mnpopu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-15dp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:gravity="start"
+                android:padding="16dp"
+                android:layout_margin="-60dp"
+                android:textSize="16dp"
+                android:text="Populer Minggu ini" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/populermingguan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="-30dp">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/populer1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/popul1"/>
+                    <!--                    <ImageView-->
+                    <!--                        android:id="@+id/populer2"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:src="@drawable/popul1"-->
+                    <!--                        android:layout_marginLeft="10dp"/>-->
+                    <!--                    <ImageView-->
+                    <!--                        android:id="@+id/populer3"-->
+                    <!--                        android:layout_width="wrap_content"-->
+                    <!--                        android:layout_height="wrap_content"-->
+                    <!--                        android:src="@drawable/popul1"-->
+                    <!--                        android:layout_marginLeft="10dp"/>-->
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start"
+            android:layout_margin="30dp"
+            android:layout_gravity="start">
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Untukmu"
+                android:textStyle="bold"
+                android:gravity="start"
+                android:textSize="16dp"
+                android:padding="16dp"
+                android:layout_weight="1"
+                android:layout_marginTop="-20dp" />
+        </LinearLayout>
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="-45dp">
+
+            <!-- Baris 1 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/resepmenu"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/resep"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp"/>
+            </LinearLayout>
+
+            <!-- Baris 2 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/resep"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="10dp"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/resep"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"/>
+            </LinearLayout>
+
+            <!-- Baris 3 -->
+            <!-- Tambahkan LinearLayout dan ImageView sesuai kebutuhan -->
+
+            <!-- Baris 4 -->
+            <!-- Tambahkan LinearLayout dan ImageView sesuai kebutuhan -->
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
