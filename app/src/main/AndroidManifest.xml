@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Cookpiration"
         tools:targetApi="34">
         <activity
+            android:name=".Landingpage.emty"
+            android:exported="false" />
+        <activity
             android:name=".Register_and_Login.Intro5"
             android:exported="false" />
         <activity

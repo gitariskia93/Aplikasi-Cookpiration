@@ -24,17 +24,17 @@
 
             <ImageView
                 android:id="@+id/imageBell"
-                android:layout_width="wrap_content"
-                android:layout_height="18dp"
-                android:layout_marginStart="16dp"
+                android:layout_width="36dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="25dp"
                 android:layout_marginTop="16dp"
                 android:src="@drawable/bell" />
 
             <TextView
                 android:id="@+id/imageTextSmall"
                 android:layout_width="280dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="1dp"
                 android:fontFamily="@font/sriracha_regular"
                 android:gravity="center"
                 android:padding="16dp"
@@ -43,9 +43,9 @@
 
             <ImageView
                 android:id="@+id/imageSearch"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
+                android:layout_width="37dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="5dp"
                 android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:src="@drawable/icon_search" />
@@ -65,6 +65,7 @@
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="Mau masak apa hari ini?"
+                android:textColor="@color/Ungu1"
                 android:textSize="25dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -78,14 +79,15 @@
             android:layout_margin="30dp"
             android:layout_gravity="end">
 
-            <TextView
+            <Button
                 android:id="@+id/smal3"
+                android:background="?android:attr/selectableItemBackground"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-10dp"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:padding="16dp"
+                android:textAllCaps="false"
                 android:text="Lihat semua"
                 android:textColor="#6C6A67"
                 android:textSize="12sp" />
@@ -97,7 +99,7 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp">
+                android:layout_marginStart="20dp">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -107,6 +109,7 @@
                         android:layout_height="wrap_content"
                         android:text="Semua"
                         android:textSize="14dp"
+                        android:textAllCaps="false"
                         android:textColor="@color/white"
                         android:background="@drawable/roudn_button" />
 
@@ -115,6 +118,7 @@
                         android:layout_width="150dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
+                        android:textAllCaps="false"
                         android:background="@drawable/bottoncreem"
                         android:fontFamily="@font/roboto"
                         android:text="Makan malam"
@@ -126,6 +130,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textSize="14dp"
+                        android:textAllCaps="false"
                         android:background="@drawable/bottoncreem"
                         android:fontFamily="@font/roboto"
                         android:text="Makan siang"
@@ -136,6 +141,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textSize="14dp"
+                        android:textAllCaps="false"
                         android:background="@drawable/bottoncreem"
                         android:fontFamily="@font/roboto"
                         android:text="Diet"
@@ -146,6 +152,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textSize="14dp"
+                        android:textAllCaps="false"
                         android:background="@drawable/bottoncreem"
                         android:fontFamily="@font/roboto"
                         android:text="Indonesia"
@@ -156,6 +163,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textSize="14dp"
+                        android:textAllCaps="false"
                         android:background="@drawable/bottoncreem"
                         android:fontFamily="@font/roboto"
                         android:text="Jepang"
@@ -166,6 +174,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:textSize="14dp"
+                        android:textAllCaps="false"
                         android:background="@drawable/bottoncreem"
                         android:fontFamily="@font/roboto"
                         android:text="Korea"
@@ -190,8 +199,7 @@
                 android:id="@+id/mnpopu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="-15dp"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="0dp"
                 android:layout_weight="1"
                 android:textStyle="bold"
                 android:gravity="start"
@@ -215,10 +223,10 @@
 
                     <ImageView
                         android:id="@+id/populer1"
-                        android:layout_width="wrap_content"
+                        android:layout_width="341dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="10dp"
-                        android:src="@drawable/popul1"/>
+                        android:src="@drawable/popul1" />
                     <!--                    <ImageView-->
                     <!--                        android:id="@+id/populer2"-->
                     <!--                        android:layout_width="wrap_content"-->
@@ -257,7 +265,6 @@
                 android:layout_marginTop="-20dp" />
         </LinearLayout>
         <LinearLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -265,32 +272,32 @@
 
             <!-- Baris 1 -->
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="415dp"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center_vertical">
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/resepmenu"
-                    android:scaleType="fitXY"
-                    android:adjustViewBounds="true"
-                    android:layout_marginTop="10dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginEnd="20dp"/>
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/resep" />
 
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/resep"
-                    android:scaleType="fitXY"
-                    android:adjustViewBounds="true"
-                    android:layout_marginTop="10dp"
                     android:layout_marginStart="10dp"
-                    android:layout_marginEnd="20dp"/>
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/resep" />
             </LinearLayout>
 
             <!-- Baris 2 -->
@@ -313,14 +320,14 @@
 
                 <ImageView
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/resep"
-                    android:scaleType="fitXY"
-                    android:adjustViewBounds="true"
-                    android:layout_marginTop="10dp"
+                    android:layout_height="229dp"
                     android:layout_marginStart="20dp"
-                    android:layout_marginEnd="20dp"/>
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/resep" />
             </LinearLayout>
 
             <!-- Baris 3 -->
