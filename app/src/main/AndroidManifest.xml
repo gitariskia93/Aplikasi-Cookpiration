@@ -13,7 +13,25 @@
         android:theme="@style/Theme.Cookpiration"
         tools:targetApi="34">
         <activity
-            android:name=".Landingpage.emty"
+            android:name=".Fragment_Nav.UploadResepActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Form_Upload_Resep.UploadResep5"
+            android:exported="false" />
+        <activity
+            android:name=".Form_Upload_Resep.UploadResep4"
+            android:exported="false" />
+        <activity
+            android:name=".Form_Upload_Resep.UploadResep3"
+            android:exported="false" />
+        <activity
+            android:name=".Form_Upload_Resep.UploadResep2"
+            android:exported="false" />
+        <activity
+            android:name=".Form_Upload_Resep.UploadResep1"
+            android:exported="false" />
+        <activity
+            android:name=".Tampilan_home.Home"
             android:exported="false" />
         <activity
             android:name=".Register_and_Login.Intro5"
@@ -63,6 +81,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

@@ -68,8 +68,7 @@
         android:layout_height="51dp"
         android:fontFamily="@font/poppins_regular"
         android:lineHeight="12dp"
-        android:text="Jelajahi resep makanan Indonesia maupun macanegara dan nikmati berbagai resep makanan
-"
+        android:text="Jelajahi resep makanan Indonesia maupun macanegara dan nikmati berbagai resep makanan"
         android:textColor="@color/white"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
