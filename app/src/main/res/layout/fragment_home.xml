@@ -22,13 +22,13 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageView
+            <Button
                 android:id="@+id/imageBell"
                 android:layout_width="33dp"
                 android:layout_height="33dp"
                 android:layout_marginStart="26dp"
-                android:layout_marginTop="16dp"
-                android:src="@drawable/bell" />
+                android:layout_marginTop="0dp"
+                android:background="@drawable/icc_bell"/>
 
             <TextView
                 android:id="@+id/imageTextSmall"
@@ -39,17 +39,19 @@
                 android:gravity="center"
                 android:padding="16dp"
                 android:text="Cookpiration"
+                android:textColor="@color/Ungu1"
                 android:textSize="16dp" />
 
-            <Button
-                android:id="@+id/imageSearch"
-                android:layout_width="42dp"
-                android:layout_height="wrap_content"
+            <ImageButton
+                android:id="@+id/btn_SearchPopuler"
+                android:layout_width="40dp"
+                android:layout_height="42dp"
                 android:layout_gravity="center"
                 android:layout_marginStart="5dp"
                 android:layout_marginEnd="16dp"
                 android:background="@color/Cream1"
-                android:drawableLeft="@drawable/icon_search" />
+                android:drawableLeft="@drawable/baseline_search_24"
+                android:src="@drawable/baseline_search_24" />
         </LinearLayout>
 
         <LinearLayout
@@ -82,8 +84,8 @@
 
             <Button
                 android:id="@+id/smal3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="?android:attr/selectableItemBackground"
                 android:gravity="center"
@@ -100,7 +102,8 @@
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="20dp">
+                android:layout_marginStart="20dp"
+                style="@style/NoScrollbar">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
@@ -186,7 +189,7 @@
         </LinearLayout>
         <Space
             android:layout_width="wrap_content"
-            android:layout_height="14dp"/>
+            android:layout_height="1dp"/>
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -194,7 +197,7 @@
             android:gravity="start"
             android:layout_margin="30dp"
             android:layout_gravity="start"
-            android:layout_marginTop="-30dp">
+            android:layout_marginTop="-3dp">
 
             <TextView
                 android:id="@+id/mnpopu"
@@ -207,6 +210,7 @@
                 android:padding="16dp"
                 android:layout_margin="-60dp"
                 android:textSize="16dp"
+                android:textColor="@color/Ungu1"
                 android:text="Populer Minggu ini" />
         </LinearLayout>
 
@@ -261,6 +265,7 @@
                 android:textStyle="bold"
                 android:gravity="start"
                 android:textSize="16dp"
+                android:textColor="@color/Ungu1"
                 android:padding="16dp"
                 android:layout_weight="1"
                 android:layout_marginTop="-20dp" />
@@ -274,33 +279,36 @@
 
             <!-- Baris 1 -->
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="412dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:orientation="horizontal">
 
-                <Button
+                <ImageButton
                     android:id="@+id/btn_omelet"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
+                    android:layout_width="55dp"
+                    android:layout_height="229dp"
+                    android:layout_marginStart="30dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_weight="1"
-                    android:background="@drawable/resep"
-                    android:adjustViewBounds="true"
-                    android:scaleType="fitXY" />
-
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginEnd="10dp"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
+                    android:background="@color/Cream1"
                     android:scaleType="fitXY"
                     android:src="@drawable/resep" />
+
+                <ImageButton
+                    android:id="@+id/btn_resep2"
+                    android:layout_width="55dp"
+                    android:layout_height="229dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@color/Cream1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/reseph2" />
             </LinearLayout>
 
             <!-- Baris 2 -->
@@ -310,27 +318,31 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_vertical">
 
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/resep"
-                    android:scaleType="fitXY"
-                    android:adjustViewBounds="true"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginEnd="10dp"/>
-
-                <ImageView
-                    android:layout_width="0dp"
+                <ImageButton
+                    android:id="@+id/btn_resep3"
+                    android:layout_width="55dp"
                     android:layout_height="229dp"
-                    android:layout_marginStart="20dp"
+                    android:layout_marginStart="30dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginEnd="10dp"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
+                    android:background="@color/Cream1"
                     android:scaleType="fitXY"
-                    android:src="@drawable/resep" />
+                    android:src="@drawable/reseph3" />
+
+                <ImageButton
+                    android:id="@+id/btn_resep4"
+                    android:layout_width="55dp"
+                    android:layout_height="229dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="30dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@color/Cream1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/reseph4" />
             </LinearLayout>
 
             <!-- Baris 3 -->
@@ -340,27 +352,31 @@
                 android:orientation="horizontal"
                 android:layout_gravity="center_vertical">
 
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:src="@drawable/resep"
-                    android:scaleType="fitXY"
-                    android:adjustViewBounds="true"
+                <ImageButton
+                    android:id="@+id/btn_resep5"
+                    android:layout_width="55dp"
+                    android:layout_height="229dp"
+                    android:layout_marginStart="30dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginEnd="10dp"/>
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@color/Cream1"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/reseph5" />
 
-                <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="216dp"
-                    android:layout_marginStart="20dp"
+                <ImageButton
+                    android:id="@+id/btn_resep6"
+                    android:layout_width="55dp"
+                    android:layout_height="229dp"
+                    android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginEnd="30dp"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
+                    android:background="@color/Cream1"
                     android:scaleType="fitXY"
-                    android:src="@drawable/resep" />
+                    android:src="@drawable/reseph6" />
             </LinearLayout>
 
             <!-- Baris 4 -->

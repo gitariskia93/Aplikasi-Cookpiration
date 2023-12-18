@@ -12,21 +12,21 @@ class Home : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
-
-        val search = findViewById<Button>(R.id.imageSearch)
-
-        search.setOnClickListener {
-            Intent(this, SearchFragment::class.java).also {
-                startActivity(it)
-            }
-        }
-
-        val resep = findViewById<Button>(R.id.btn_omelet)
-
-        resep.setOnClickListener {
-            Intent(this, Resep::class.java).also {
-                startActivity(it)
-            }
-        }
+//
+//        val search = findViewById<Button>(R.id.imageSearch)
+//
+//        search.setOnClickListener {
+//            Intent(this, SearchFragment::class.java).also {
+//                startActivity(it)
+//            }
+//        }
+//
+//        val resep = findViewById<Button>(R.id.btn_omelet)
+//
+//        resep.setOnClickListener {
+//            Intent(this, Resep::class.java).also {
+//                startActivity(it)
+//            }
+//        }
     }
 }

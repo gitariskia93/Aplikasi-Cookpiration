@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Cream1"
     tools:context=".Form_Upload_Resep.UploadResep1">
 
     <TextView
@@ -25,7 +26,7 @@
         android:id="@+id/sv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/resepku"
+        android:background="@drawable/sv1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.143"
@@ -37,7 +38,7 @@
         android:id="@+id/sv2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/resepku"
+        android:background="@drawable/sv2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.392"
@@ -49,12 +50,14 @@
         android:id="@+id/sv3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/resepku"
+        android:background="@drawable/sv3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.143"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sv1"
         app:layout_constraintVertical_bias="0.103" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

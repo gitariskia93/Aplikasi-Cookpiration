@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Button_nav_coba.nav_coba">
+
+
+    <ImageView
+        android:id="@+id/imageViewnav"
+        android:layout_width="415dp"
+        android:layout_height="73dp"
+        android:background="@drawable/ltr_nv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:background="@drawable/btn_upload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewnav"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Button
+        android:id="@+id/button_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_homee"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_upload"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewnav"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_search_24"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewnav"
+        app:layout_constraintEnd_toStartOf="@+id/button_upload"
+        app:layout_constraintStart_toEndOf="@+id/button_home"
+        app:layout_constraintTop_toTopOf="@+id/imageViewnav"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:background="@drawable/baseline_bookmark_border_24"
+        app:layout_constraintBottom_toBottomOf="@+id/button_upload"
+        app:layout_constraintEnd_toStartOf="@+id/button_user"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toEndOf="@+id/button_upload"
+        app:layout_constraintTop_toTopOf="@+id/imageViewnav"
+        app:layout_constraintVertical_bias="0.727" />
+
+    <Button
+        android:id="@+id/button_user"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_user"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewnav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toEndOf="@+id/button_upload"
+        app:layout_constraintTop_toTopOf="@+id/imageViewnav"
+        app:layout_constraintVertical_bias="0.558" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/styles.xml -->
+
+<resources>
+
+    <style name="NoScrollbar">
+        <item name="android:scrollbars">none</item>
+        <item name="android:scrollbarThumbHorizontal">@android:color/holo_orange_dark</item>
+        <item name="android:scrollbarTrackHorizontal">@android:color/transparent</item>
+    </style>
+
+</resources>

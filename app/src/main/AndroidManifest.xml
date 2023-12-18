@@ -13,7 +13,37 @@
         android:theme="@style/Theme.Cookpiration"
         tools:targetApi="34">
         <activity
+            android:name=".Button_nav_coba.HalamanUp_nav"
+            android:exported="false" />
+        <activity
+            android:name=".Button_nav_coba.Resep_nav"
+            android:exported="false" />
+        <activity
+            android:name=".Button_nav_coba.Search_populer"
+            android:exported="false" />
+        <activity
+            android:name=".Button_nav_coba.Save_nav"
+            android:exported="false" />
+        <activity
+            android:name=".Button_nav_coba.Search_nav"
+            android:exported="false" />
+        <activity
+            android:name=".Button_nav_coba.user_nav"
+            android:exported="false" />
+        <activity
+            android:name=".Button_nav_coba.nav_home"
+            android:exported="false" />
+        <activity
+            android:name=".Button_nav_coba.nav_coba"
+            android:exported="false" />
+        <activity
+            android:name=".Pengaturan.Pengaturan"
+            android:exported="false" />
+        <activity
             android:name=".Fragment_Nav.UploadResepActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment_Nav.HalamanUpload"
             android:exported="false" />
         <activity
             android:name=".Form_Upload_Resep.UploadResep5"
@@ -32,6 +62,12 @@
             android:exported="false" />
         <activity
             android:name=".Tampilan_home.Home"
+            android:exported="false" />
+        <activity
+            android:name=".Tampilan_home.SearchPopuler"
+            android:exported="false" />
+        <activity
+            android:name=".Tampilan_home.Resep"
             android:exported="false" />
         <activity
             android:name=".Register_and_Login.Intro5"

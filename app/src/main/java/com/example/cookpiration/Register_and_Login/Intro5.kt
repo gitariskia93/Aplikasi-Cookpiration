@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.example.cookpiration.Button_nav_coba.nav_coba
+import com.example.cookpiration.Button_nav_coba.nav_home
 import com.example.cookpiration.Fragment_Nav.HomeFragment
 import com.example.cookpiration.MainActivity
 import com.example.cookpiration.R

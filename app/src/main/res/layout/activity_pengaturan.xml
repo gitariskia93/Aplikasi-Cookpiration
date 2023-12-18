@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Cream1"
+    tools:context=".Pengaturan.Pengaturan">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="@drawable/icon_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Pengaturan"
+        android:textColor="@color/Ungu1"
+        android:textSize="19dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/Akun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Akun"
+        android:textColor="@color/Ungu1"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <Button
+        android:id="@+id/btn_PgAkun"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Akun"
+        android:textAllCaps="false"
+        android:textColor="@color/Brown2"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/viewakun"
+        app:layout_constraintTop_toBottomOf="@+id/Akun"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <ImageView
+        android:id="@+id/viewakun"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ic_akun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Akun"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <Button
+        android:id="@+id/btn_PgKataSandi"
+        android:layout_width="117dp"
+        android:layout_height="33dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Kata sandi"
+        android:textAllCaps="false"
+        android:textColor="@color/Brown2"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/viewKatasandi"
+        app:layout_constraintTop_toBottomOf="@+id/btn_PgAkun"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <ImageView
+        android:id="@+id/viewKatasandi"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ic_katasandi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewakun"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <Button
+        android:id="@+id/btn_PgPostingan"
+        android:layout_width="117dp"
+        android:layout_height="33dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Postingan"
+        android:textAllCaps="false"
+        android:textColor="@color/Brown2"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/viewPostingan"
+        app:layout_constraintTop_toBottomOf="@+id/btn_PgKataSandi"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ImageView
+        android:id="@+id/viewPostingan"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ic_postingan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewKatasandi"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <TextView
+        android:id="@+id/Lagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Lagi"
+        android:textColor="@color/Ungu1"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_PgPostingan"
+        app:layout_constraintVertical_bias="0.119" />
+
+    <Button
+        android:id="@+id/btn_nilai"
+        android:layout_width="156dp"
+        android:layout_height="31dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Nilai dan Tinjau"
+        android:textAllCaps="false"
+        android:textColor="@color/Brown2"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/viewNilai"
+        app:layout_constraintTop_toBottomOf="@+id/btn_PgKataSandi"
+        app:layout_constraintVertical_bias="0.342" />
+
+    <ImageView
+        android:id="@+id/viewNilai"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ic_nilai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lagi"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <Button
+        android:id="@+id/btn_bantuan"
+        android:layout_width="111dp"
+        android:layout_height="36dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Bantuan"
+        android:textAllCaps="false"
+        android:textColor="@color/Brown2"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/viewBantuan"
+        app:layout_constraintTop_toBottomOf="@+id/btn_nilai"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <ImageView
+        android:id="@+id/viewBantuan"
+        android:layout_width="29dp"
+        android:layout_height="28dp"
+        android:background="@drawable/ic_bantuan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewNilai"
+        app:layout_constraintVertical_bias="0.137" />
+
+    <Button
+        android:id="@+id/btn_Keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Keluar"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@color/Ungu2"
+        android:textSize="17dp"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_bantuan"
+        app:layout_constraintVertical_bias="0.146" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

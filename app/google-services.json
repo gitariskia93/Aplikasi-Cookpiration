@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "903014257198",
+    "project_id": "massiv-849a2",
+    "storage_bucket": "massiv-849a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903014257198:android:9a3283852b3b61aa5145bf",
+        "android_client_info": {
+          "package_name": "com.example.cookpiration"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBirSq2B-aH3EB62Nb_zMxq_NNK9uY7hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

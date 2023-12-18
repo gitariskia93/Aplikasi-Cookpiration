@@ -22,7 +22,7 @@
                 android:layout_width="42dp"
                 android:layout_height="41dp"
                 android:background="@drawable/icon_back"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="20dp"
                 android:layout_marginTop="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -39,9 +39,9 @@
                 android:id="@+id/btnsave"
                 android:layout_width="42dp"
                 android:layout_height="41dp"
-                android:background="@drawable/icon_like"
                 android:layout_marginStart="5dp"
                 android:layout_marginTop="10dp"
+                android:background="@drawable/icon_like"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.036" />
@@ -72,6 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/profil"
+                android:layout_marginStart="20dp"
                 android:gravity="top"
                 android:padding="16dp"
                 android:textSize="25dp"
@@ -103,7 +104,7 @@
                 android:layout_height="match_parent">
 
                 <Space
-                    android:layout_width="158dp"
+                    android:layout_width="130dp"
                     android:layout_height="0dp" />
 
                 <Button
@@ -111,7 +112,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:background="@drawable/roudn_button"
-
                     android:gravity="center"
                     android:padding="16dp"
                     android:text="4.9"
@@ -187,7 +187,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="10dp"
             android:fontFamily="@font/poppins_bold"
             android:text="Bahan"
@@ -199,7 +199,7 @@
             android:text="Silahkan siapkan bahan-bahannya sebelum mulai memasak"
             android:fontFamily="@font/poppins_regular"
             android:textSize="10dp"
-            android:layout_marginStart="10dp"/>
+            android:layout_marginStart="30dp"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -210,6 +210,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="wrap_content"
+                android:layout_marginStart="30dp"
                 android:layout_height="match_parent">
 
                 <TextView
@@ -272,6 +273,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
                 android:layout_gravity="center">
 
                 <TextView
@@ -337,7 +339,7 @@
                 android:text="Jumlah  410 kal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.591"
+                app:layout_constraintHorizontal_bias="0.744"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
@@ -348,15 +350,16 @@
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/poppins_bold"
             android:text="Alat dan perlengkapan"
             android:textSize="20dp" />
 
         <TextView
-            android:layout_width="278dp"
-            android:layout_height="51dp"
-            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_marginStart="30dp"
             android:fontFamily="@font/poppins_regular"
             android:text="Silahkan siapkan perlekapan sebelum mulai memasak"
             android:textSize="10dp" />
@@ -369,7 +372,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:layout_marginStart="10dp">
+                android:layout_marginStart="38dp">
 
                 <TextView
                     android:layout_width="278dp"
@@ -422,6 +425,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
                 android:layout_gravity="center">
 
                 <TextView
@@ -466,6 +470,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="30dp">
 
             <TextView
@@ -483,6 +488,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp">
             <TextView
                 android:layout_width="32dp"
@@ -504,6 +510,7 @@
         </LinearLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_height="match_parent">
 
             <ImageView
@@ -522,6 +529,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp">
             <TextView
                 android:layout_width="32dp"
@@ -543,6 +551,7 @@
         </LinearLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_height="match_parent">
 
             <ImageView
@@ -550,7 +559,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/tutorcara"
+                android:src="@drawable/t2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -559,6 +568,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp">
             <TextView
                 android:layout_width="32dp"
@@ -580,6 +590,7 @@
         </LinearLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_height="match_parent">
 
             <ImageView
@@ -587,7 +598,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/tutorcara"
+                android:src="@drawable/t3"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -597,6 +608,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp">
             <TextView
                 android:layout_width="32dp"
@@ -611,7 +623,7 @@
 
             <TextView
                 android:layout_width="278dp"
-                android:layout_height="20dp"
+                android:layout_height="55dp"
                 android:fontFamily="@font/poppins_regular"
                 android:gravity="center_vertical|start"
                 android:text="Masukan telur yang sudah dikocok kedalam pen yang sudah panas"
@@ -620,6 +632,7 @@
         </LinearLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_height="match_parent"
             android:layout_marginTop="5dp">
 
@@ -628,7 +641,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/tutorcara"
+                android:src="@drawable/t4"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -638,6 +651,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp">
             <TextView
                 android:layout_width="32dp"
@@ -651,7 +665,7 @@
                 android:textSize="32dp" />
             <TextView
                 android:layout_width="278dp"
-                android:layout_height="20dp"
+                android:layout_height="51dp"
                 android:gravity="center_vertical|top"
                 android:fontFamily="@font/poppins_regular"
                 android:text="Aduk-aduk perlahan"
@@ -659,6 +673,7 @@
         </LinearLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_height="match_parent">
 
             <ImageView
@@ -666,7 +681,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/tutorcara"
+                android:src="@drawable/t5"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -676,6 +691,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp">
             <TextView
                 android:layout_width="32dp"
@@ -697,6 +713,7 @@
         </LinearLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_height="match_parent">
 
             <ImageView
@@ -704,7 +721,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/tutorcara"
+                android:src="@drawable/t6"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -714,6 +731,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp">
             <TextView
                 android:layout_width="32dp"
@@ -735,6 +753,7 @@
         </LinearLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_height="match_parent">
 
             <ImageView
@@ -742,7 +761,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/tutorcara"
+                android:src="@drawable/t7"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -752,6 +771,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp">
             <TextView
                 android:layout_width="32dp"
@@ -773,6 +793,7 @@
         </LinearLayout>
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_height="match_parent">
 
             <ImageView
@@ -780,7 +801,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/tutorcara"
+                android:src="@drawable/t8"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -790,6 +811,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp">
             <TextView
                 android:layout_width="32dp"
@@ -814,6 +836,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="5dp">
 
             <ImageView
@@ -821,7 +844,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
                 android:layout_marginStart="20dp"
-                android:src="@drawable/tutorcara"
+                android:src="@drawable/t9"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

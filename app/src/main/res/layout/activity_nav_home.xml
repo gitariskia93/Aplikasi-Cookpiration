@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Cream1"
+    tools:context=".Button_nav_coba.nav_home">
+
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sriracha_regular"
+        android:text="Cookpiration"
+        android:textColor="@color/Ungu1"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/icc_bell"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView21"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/btn_cari"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_search_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.768"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Mau masak apa hari ini"
+        android:textColor="@color/Ungu1"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.37"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="105dp"
+        android:layout_height="34dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Lihat semua"
+        android:textAllCaps="false"
+        android:textColor="@color/Brown1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <Button
+        android:id="@+id/tag1"
+        android:layout_width="102dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_oren"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Semua"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <Button
+        android:id="@+id/tag2"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_cream"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Makan malam"
+        android:textAllCaps="false"
+        android:textColor="@color/Brown2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toEndOf="@+id/tag1"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <Button
+        android:id="@+id/tag3"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_cream"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Makan siang"
+        android:textAllCaps="false"
+        android:textColor="@color/Brown2"
+        app:layout_constraintStart_toEndOf="@+id/tag2"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <TextView
+        android:id="@+id/textimpop"
+        android:layout_width="154dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Populer minggu ini"
+        android:textColor="@color/Ungu1"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tag1"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/im_pop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textimpop"
+        app:layout_constraintVertical_bias="0.026" />
+
+    <TextView
+        android:id="@+id/textuntukmu"
+        android:layout_width="154dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Untukmu"
+        android:textColor="@color/Ungu1"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <ImageView
+        android:id="@+id/imageViewnav"
+        android:layout_width="415dp"
+        android:layout_height="73dp"
+        android:background="@drawable/ltr_nv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="59dp"
+        android:layout_height="58dp"
+        android:background="@drawable/btn_upload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewnav"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Button
+        android:id="@+id/button_home"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_homee"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_upload"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageViewnav"
+        app:layout_constraintVertical_bias="0.888" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/baseline_search_24"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewnav"
+        app:layout_constraintEnd_toStartOf="@+id/button_upload"
+        app:layout_constraintStart_toEndOf="@+id/button_home"
+        app:layout_constraintTop_toTopOf="@+id/imageViewnav"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="30dp"
+        android:layout_height="33dp"
+        android:background="@drawable/baseline_bookmark_border_24"
+        app:layout_constraintBottom_toBottomOf="@+id/button_upload"
+        app:layout_constraintEnd_toStartOf="@+id/button_user"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toEndOf="@+id/button_upload"
+        app:layout_constraintTop_toTopOf="@+id/imageViewnav"
+        app:layout_constraintVertical_bias="0.727" />
+
+    <Button
+        android:id="@+id/button_user"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_user"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewnav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toEndOf="@+id/button_upload"
+        app:layout_constraintTop_toTopOf="@+id/imageViewnav"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <Button
+        android:id="@+id/btn_resepome"
+        android:layout_width="144dp"
+        android:layout_height="211dp"
+        android:background="@drawable/im_omelet"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewnav"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.143"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textuntukmu"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="144dp"
+        android:layout_height="211dp"
+        android:background="@drawable/im_bubur"
+        app:layout_constraintBottom_toBottomOf="@+id/button_upload"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toEndOf="@+id/btn_resepome"
+        app:layout_constraintTop_toTopOf="@+id/btn_resepome"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

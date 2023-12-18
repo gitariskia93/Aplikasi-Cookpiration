@@ -217,13 +217,14 @@
         android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="12dp"
-        android:textColor="@color/Brown1"
         android:text="Silahkan centang jika resep mempunyai kandungan berikut:"
+        android:textColor="@color/Brown1"
+        android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textpengeluaran"
-        app:layout_constraintVertical_bias="0.075"
-        tools:layout_editor_absoluteX="42dp" />
+        app:layout_constraintVertical_bias="0.075" />
 
     <Button
         android:id="@+id/btnBacktoform1"
