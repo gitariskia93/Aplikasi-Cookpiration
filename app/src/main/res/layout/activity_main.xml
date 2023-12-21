@@ -23,8 +23,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/nav_menu"
         android:paddingTop="17dp"
-        app:itemIconTint="@color/Ungu2"
-        app:itemActiveIndicatorStyle="@color/Orange"/>
+        app:itemRippleColor="@color/Brown2"
+        app:itemIconTint="@color/icon_colornav"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

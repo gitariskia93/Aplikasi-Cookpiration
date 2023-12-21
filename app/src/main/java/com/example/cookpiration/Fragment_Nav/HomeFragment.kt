@@ -9,6 +9,7 @@ import android.view.ViewGroup
 import android.widget.ImageButton
 import com.example.cookpiration.Form_Upload_Resep.UploadResep1
 import com.example.cookpiration.R
+import com.example.cookpiration.Tampilan_home.Notification
 import com.example.cookpiration.Tampilan_home.Resep
 import com.example.cookpiration.Tampilan_home.SearchPopuler
 
@@ -21,7 +22,7 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_home, container, false)
 
-// Set listener pada tombol untuk berpindah ke UploadResep1
+        // Set listener pada tombol untuk berpindah ke UploadResep1
         view.findViewById<ImageButton>(R.id.btn_SearchPopuler).setOnClickListener {
             startActivity(Intent(requireContext(), SearchPopuler::class.java))
         }
@@ -29,6 +30,11 @@ class HomeFragment : Fragment() {
         // Set listener pada tombol untuk berpindah ke UploadResep1
         view.findViewById<ImageButton>(R.id.btn_omelet).setOnClickListener {
             startActivity(Intent(requireContext(), Resep::class.java))
+        }
+
+        // Set listener pada tombol untuk berpindah ke UploadResep1
+        view.findViewById<ImageButton>(R.id.imageBell).setOnClickListener {
+            startActivity(Intent(requireContext(), Notification::class.java))
         }
 
 

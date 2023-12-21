@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Cookpiration"
         tools:targetApi="34">
         <activity
+            android:name=".Pengaturan.EditProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Tampilan_home.Notification"
+            android:exported="false" />
+        <activity
             android:name=".Button_nav_coba.HalamanUp_nav"
             android:exported="false" />
         <activity
@@ -44,6 +50,9 @@
             android:exported="false" />
         <activity
             android:name=".Fragment_Nav.HalamanUpload"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment_Nav.Edit_profilFragment"
             android:exported="false" />
         <activity
             android:name=".Form_Upload_Resep.UploadResep5"

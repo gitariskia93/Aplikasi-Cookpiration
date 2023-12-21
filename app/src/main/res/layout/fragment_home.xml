@@ -22,13 +22,13 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <Button
+            <ImageButton
                 android:id="@+id/imageBell"
                 android:layout_width="33dp"
                 android:layout_height="33dp"
                 android:layout_marginStart="26dp"
-                android:layout_marginTop="0dp"
-                android:background="@drawable/icc_bell"/>
+                android:layout_marginTop="16dp"
+                android:background="@drawable/icc_bell" />
 
             <TextView
                 android:id="@+id/imageTextSmall"
